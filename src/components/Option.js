@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Option = (props) => (
   <div className="option">
@@ -6,12 +6,12 @@ const Option = (props) => (
     <button
       className="button button--link"
       onClick={(e) => {
-        props.handleDeleteOption(props.optionText);
+        props.handleDeleteOption(props.optionText)
       }}
     >
       remove
       </button>
   </div>
-);
+)
 
-export default Option;
+export default Option
